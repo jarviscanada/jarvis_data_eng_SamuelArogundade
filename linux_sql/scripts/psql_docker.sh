@@ -13,6 +13,7 @@ checkContainer () {
     if [[ `docker container ls -a -f name=jrvs-psql | wc -l` == 2 ]]; then
         return 0
     fi
+
     return 1
 }
 
