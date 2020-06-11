@@ -28,7 +28,7 @@
 
 # Architecture Diagram
 
-![Architecture](/home/centos/dev/jarvis_data_eng_Samuel/linux_sql/assets/arch.jpg)
+![Architecture](https://github.com/jarviscanada/jarvis_data_eng_SamuelArogundade/blob/develop/linux_sql/assets/arch.jpg)
 
 # Database Modeling
 - The `host_info` collects host hardware info and insert into the database. It only runs once during the installation time.
