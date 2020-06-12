@@ -1,10 +1,9 @@
 # Introduction
 
-    Cluster Monitor Agent is an internal tool that monitors the hardware specifications of each node and monitor node resource usages (e.g. CPU/Memory) in real time. The collected data is stored in a PSQL database. 
-    This project explores how to create a monitoring agent by utilizing bash scripts that create a PSQL docker container, create tables and inserts into them data regarding host info and usage. A crontab job is then triggered every minute which collects the average host usage data.
-    The data can be used to generate some reports for future resource planning purposes (e.g. add/remove servers).
-    
-    Linux Cluster Administration (LCA)
+Cluster Monitor Agent is an internal tool that monitors the hardware specifications of each node and monitor node resource usages (e.g. CPU/Memory) in real time. The collected data is stored in a PSQL database. 
+This project explores how to create a monitoring agent by utilizing bash scripts that create a PSQL docker container, create tables and inserts into them data regarding host info and usage. A crontab job is then triggered every minute which collects the average host usage data.
+The data can be used to generate some reports for future resource planning purposes (e.g. add/remove servers).
+Linux Cluster Administration (LCA)
     
 # Quick Start
 
